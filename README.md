@@ -48,6 +48,18 @@ Rule: if you can't build it from scratch, you don't understand it
 
 
 <div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Inconsolata&weight=500&size=24&duration=4000&pause=300&color=FFFFFF&center=true&vCenter=true&multiline=true&repeat=false&random=false&width=700&height=70&lines=%24+cat+~%2F.license" alt="Typing SVG" />
+</div>
+
+<p align="center">
+  <img src="hunter-license.svg" width="760" alt="hunter license"/>
+</p>
+
+
+<p align="center">⋆｡°✩ ⋆｡°✩ ⋆｡°✩</p>
+
+
+<div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Inconsolata&weight=500&size=24&duration=4000&pause=300&color=FFFFFF&center=true&vCenter=true&multiline=true&repeat=false&random=false&width=700&height=70&lines=%24+ls+~%2Fstats" alt="Typing SVG" />
 </div>
 

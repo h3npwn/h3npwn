@@ -1,0 +1,236 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="420" viewBox="0 0 900 420">
+  <defs>
+    <clipPath id="slice1"><rect x="0" y="60" width="900" height="24"/></clipPath>
+    <clipPath id="slice2"><rect x="0" y="170" width="900" height="38"/></clipPath>
+    <clipPath id="slice3"><rect x="0" y="298" width="900" height="18"/></clipPath>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#ffffff" opacity="0.035"/>
+    </pattern>
+  </defs>
+
+  <g id="card" font-family="'Courier New',Courier,monospace">
+    <rect x="0" y="0" width="900" height="420" rx="18" fill="#050505"/>
+    <rect x="10" y="10" width="880" height="400" rx="12" fill="none" stroke="#ffffff" stroke-width="2"/>
+    <rect x="20" y="20" width="860" height="380" rx="8" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+
+    <!-- ascii emblem: silhouette <-> h morph -->
+    <g font-size="10" fill="#dddddd" transform="translate(52,100)">
+      <g id="asciiArt">
+        <animate attributeName="opacity" calcMode="discrete" values="1;0" keyTimes="0;0.5" dur="5.8s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" calcMode="discrete" values="0 0;1 0;0 0;-1 0;0 0" keyTimes="0;0.1;0.14;0.3;0.34" additive="sum" dur="2.3s" repeatCount="indefinite"/>
+        <text y="11">..........:@@:............</text>
+        <text y="22">........@@@@@@@@@.........</text>
+        <text y="33">.......@@@@@@@@@@@@.......</text>
+        <text y="44">......@@@@@@@@@@@@@@......</text>
+        <text y="55">....@.@@@@@@@@@@@@@@@.....</text>
+        <text y="66">...@.@@@@@@@@@@@@@@@@.....</text>
+        <text y="77">...@.@@@@@@@@@@@@@@@@.....</text>
+        <text y="88">..@..@@@@@@@@@@@@@@@@.....</text>
+        <text y="99">..@..@@@@@@@@@@@@@@@:.....</text>
+        <text y="110">.@@..@@@@@@@@@@@@@@@......</text>
+        <text y="121">.@@@.@@@@@@@@@@@@@@.......</text>
+        <text y="132">.@@@..@@@@@@@@@@@@........</text>
+        <text y="143">.@@@...@@@@@@@@@..........</text>
+        <text y="154">.@@@....@@@@@@............</text>
+        <text y="165">.@@@@...@@@@@@@@..........</text>
+        <text y="176">.@@@@..@@@@@@@@@@@@.......</text>
+        <text y="187">.@@@@.@@@@@@@@@@@@@@@@....</text>
+        <text y="198">.@@@@@@@@@@@@@@@@@@@@@@@..</text>
+        <text y="209">@@@@@@@@@@@@@@@@@@@@@@@@@.</text>
+        <text y="220">@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+      </g>
+      <g id="asciiNoise" opacity="0">
+        <animate attributeName="opacity" calcMode="discrete" values="0;1;0;1" keyTimes="0;0.5;0.56;0.94" dur="5.8s" repeatCount="indefinite"/>
+        <text y="11">:#.*..@:'.**#..:@.'*.:#..*</text>
+        <text y="22">.*@':#..*.:@#'.*..#:.'@*..</text>
+        <text y="33">#..:*'@.#..*:.@'#.*..:#'*.</text>
+        <text y="44">.:@*.#'..:*@.#..'*:.@#..*:</text>
+        <text y="55">*.#':.@*..#:'.@*.#..:*'@#.</text>
+        <text y="66">.@:*#..'*.:#@..*':.#*..@:.</text>
+        <text y="77">#'.*:@..#*.':@.#..*:'@.#*.</text>
+        <text y="88">.:#@*.'..:*#.@'..#:*.'@..#</text>
+        <text y="99">*@.':#*..@:'.#*.:@.'#*..:@</text>
+        <text y="110">.#:'*@..#.:*'@.#:.*'.@#.:*</text>
+        <text y="121">:@*#.'.:@*.#'.:*@.#.':*@#.</text>
+        <text y="132">*.':@#*.'.@:#*.':@.#*.':@#</text>
+        <text y="143">.#*@:'..#*:@.'#.*:@'.#*:@.</text>
+        <text y="154">@:.'#*@..:'#*.@:.#'*@.:#'*</text>
+        <text y="165">.'*:#@.'*.:#@.'*:#.@'*.:#@</text>
+        <text y="176">#@.*':#.@*.':#@.*':@#.*':#</text>
+        <text y="187">:.#'@*:.#'.@*:#.'@*:.#'@*:</text>
+        <text y="198">*':@#.*':@.#*':@#.*':@.#*'</text>
+        <text y="209">.@#:'*.@#:'.*@#:'.*@#.:'*@</text>
+        <text y="220">#*.@':#*.@':#*.@':#*.@':#*</text>
+      </g>
+      <g id="asciiH" opacity="0">
+        <animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.56;0.94" dur="5.8s" repeatCount="indefinite"/>
+        <text y="11">..........................</text>
+        <text y="22">.@@@@@@@@@......@@@@@@@@@.</text>
+        <text y="33">.@@@@@@@@@......@@@@@@@@@.</text>
+        <text y="44">...@@@@@..........@@@@@...</text>
+        <text y="55">...@@@@@..........@@@@@...</text>
+        <text y="66">...@@@@@..........@@@@@...</text>
+        <text y="77">...@@@@@..........@@@@@...</text>
+        <text y="88">......#####..........#####</text>
+        <text y="99">......####################</text>
+        <text y="110">......####################</text>
+        <text y="121">......####################</text>
+        <text y="132">......#####..........#####</text>
+        <text y="143">...@@@@@..........@@@@@...</text>
+        <text y="154">...@@@@@..........@@@@@...</text>
+        <text y="165">...@@@@@..........@@@@@...</text>
+        <text y="176">...@@@@@..........@@@@@...</text>
+        <text y="187">...@@@@@..........@@@@@...</text>
+        <text y="198">.@@@@@@@@@......@@@@@@@@@.</text>
+        <text y="209">.@@@@@@@@@......@@@@@@@@@.</text>
+        <text y="220">....:................:....</text>
+      </g>
+    </g>
+    <text x="130" y="348" font-size="14" fill="#888888" text-anchor="middle" letter-spacing="3">SINGLE ★ STAR</text>
+
+    <!-- header -->
+    <text x="270" y="85" font-size="34" font-weight="bold" fill="#ffffff" letter-spacing="10">HUNTER LICENSE</text>
+    <text x="270" y="112" font-size="13" fill="#999999" letter-spacing="4">— 1337 ASSOCIATION · SYSTEMS DIVISION —</text>
+
+    <!-- name -->
+    <text id="nm" x="268" y="205" font-size="72" font-weight="bold" fill="#ffffff">h3n\x</text>
+    <text x="272" y="238" font-size="17" fill="#aaaaaa" letter-spacing="2">「 ヘンエックス 」 CODE HUNTER</text>
+
+    <!-- fields -->
+    <g font-size="15" fill="#cccccc" letter-spacing="1">
+      <text x="270" y="285">ID NO ....... 0x68336E5C78</text>
+      <text x="270" y="310">AFFILIATION . 1337 RABAT · 42 NETWORK</text>
+      <text x="270" y="335">CLASS ....... SEGFAULT HUNTER</text>
+      <text x="270" y="360">STATUS ...... compiling…</text>
+    </g>
+
+    <!-- barcode: real Code 39, scans as I LOVE MY ANGEL -->
+    <g transform="translate(645,296)">
+      <rect x="-9" y="-5" width="239" height="60" rx="3" fill="#ffffff"/>
+      <g fill="#050505">
+      <rect x="0.00" width="0.90" height="50"/>
+      <rect x="3.15" width="0.90" height="50"/>
+      <rect x="4.95" width="2.25" height="50"/>
+      <rect x="8.10" width="2.25" height="50"/>
+      <rect x="11.25" width="0.90" height="50"/>
+      <rect x="13.05" width="0.90" height="50"/>
+      <rect x="14.85" width="2.25" height="50"/>
+      <rect x="18.00" width="0.90" height="50"/>
+      <rect x="21.15" width="2.25" height="50"/>
+      <rect x="24.30" width="0.90" height="50"/>
+      <rect x="26.10" width="0.90" height="50"/>
+      <rect x="29.25" width="2.25" height="50"/>
+      <rect x="32.40" width="0.90" height="50"/>
+      <rect x="34.20" width="2.25" height="50"/>
+      <rect x="37.35" width="0.90" height="50"/>
+      <rect x="39.15" width="0.90" height="50"/>
+      <rect x="40.95" width="2.25" height="50"/>
+      <rect x="44.10" width="0.90" height="50"/>
+      <rect x="45.90" width="0.90" height="50"/>
+      <rect x="49.05" width="2.25" height="50"/>
+      <rect x="52.20" width="2.25" height="50"/>
+      <rect x="55.35" width="0.90" height="50"/>
+      <rect x="57.15" width="2.25" height="50"/>
+      <rect x="60.30" width="0.90" height="50"/>
+      <rect x="63.45" width="0.90" height="50"/>
+      <rect x="65.25" width="0.90" height="50"/>
+      <rect x="68.40" width="2.25" height="50"/>
+      <rect x="71.55" width="0.90" height="50"/>
+      <rect x="73.35" width="0.90" height="50"/>
+      <rect x="75.15" width="2.25" height="50"/>
+      <rect x="78.30" width="2.25" height="50"/>
+      <rect x="81.45" width="0.90" height="50"/>
+      <rect x="83.25" width="2.25" height="50"/>
+      <rect x="87.75" width="0.90" height="50"/>
+      <rect x="89.55" width="0.90" height="50"/>
+      <rect x="91.35" width="0.90" height="50"/>
+      <rect x="94.50" width="2.25" height="50"/>
+      <rect x="97.65" width="0.90" height="50"/>
+      <rect x="99.45" width="2.25" height="50"/>
+      <rect x="102.60" width="0.90" height="50"/>
+      <rect x="104.40" width="2.25" height="50"/>
+      <rect x="107.55" width="2.25" height="50"/>
+      <rect x="110.70" width="0.90" height="50"/>
+      <rect x="112.50" width="0.90" height="50"/>
+      <rect x="115.65" width="0.90" height="50"/>
+      <rect x="117.45" width="2.25" height="50"/>
+      <rect x="121.95" width="0.90" height="50"/>
+      <rect x="123.75" width="2.25" height="50"/>
+      <rect x="126.90" width="0.90" height="50"/>
+      <rect x="128.70" width="0.90" height="50"/>
+      <rect x="130.50" width="0.90" height="50"/>
+      <rect x="133.65" width="2.25" height="50"/>
+      <rect x="136.80" width="0.90" height="50"/>
+      <rect x="138.60" width="2.25" height="50"/>
+      <rect x="141.75" width="0.90" height="50"/>
+      <rect x="143.55" width="2.25" height="50"/>
+      <rect x="146.70" width="0.90" height="50"/>
+      <rect x="148.50" width="0.90" height="50"/>
+      <rect x="151.65" width="0.90" height="50"/>
+      <rect x="153.45" width="2.25" height="50"/>
+      <rect x="156.60" width="0.90" height="50"/>
+      <rect x="158.40" width="0.90" height="50"/>
+      <rect x="160.20" width="2.25" height="50"/>
+      <rect x="163.35" width="0.90" height="50"/>
+      <rect x="166.50" width="2.25" height="50"/>
+      <rect x="169.65" width="0.90" height="50"/>
+      <rect x="171.45" width="0.90" height="50"/>
+      <rect x="173.25" width="0.90" height="50"/>
+      <rect x="176.40" width="2.25" height="50"/>
+      <rect x="179.55" width="2.25" height="50"/>
+      <rect x="182.70" width="2.25" height="50"/>
+      <rect x="185.85" width="0.90" height="50"/>
+      <rect x="187.65" width="2.25" height="50"/>
+      <rect x="192.15" width="0.90" height="50"/>
+      <rect x="193.95" width="0.90" height="50"/>
+      <rect x="195.75" width="0.90" height="50"/>
+      <rect x="197.55" width="2.25" height="50"/>
+      <rect x="200.70" width="0.90" height="50"/>
+      <rect x="202.50" width="0.90" height="50"/>
+      <rect x="205.65" width="2.25" height="50"/>
+      <rect x="208.80" width="0.90" height="50"/>
+      <rect x="211.95" width="0.90" height="50"/>
+      <rect x="213.75" width="2.25" height="50"/>
+      <rect x="216.90" width="2.25" height="50"/>
+      <rect x="220.05" width="0.90" height="50"/>
+      </g>
+    </g>
+    <text x="755" y="368" font-size="9" fill="#888888" text-anchor="middle">69 20 6C 6F 76 65 20 6D 79 20 61 6E 67 65 6C</text>
+    <text x="755" y="386" font-size="13" fill="#999999" text-anchor="middle" letter-spacing="6">r%&gt;|!</text>
+  </g>
+
+  <!-- rgb-split glitch ghosts of the name -->
+  <text x="264" y="202" font-size="72" font-weight="bold" fill="#ff2a4a" opacity="0" font-family="'Courier New',Courier,monospace">h3n\x
+    <animate attributeName="opacity" calcMode="discrete" values="0;0.85;0;0;0.7;0;0" keyTimes="0;0.04;0.09;0.5;0.54;0.58;1" dur="2.8s" repeatCount="indefinite"/>
+  </text>
+  <text x="273" y="209" font-size="72" font-weight="bold" fill="#2af5ff" opacity="0" font-family="'Courier New',Courier,monospace">h3n\x
+    <animate attributeName="opacity" calcMode="discrete" values="0;0.85;0;0;0.7;0;0" keyTimes="0;0.05;0.1;0.51;0.55;0.59;1" dur="2.8s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- horizontal slice glitches -->
+  <use xlink:href="#card" clip-path="url(#slice1)">
+    <animateTransform attributeName="transform" type="translate" calcMode="discrete" values="0 0; 12 0; 0 0; -9 0; 0 0" keyTimes="0;0.03;0.08;0.62;0.66" dur="3.1s" repeatCount="indefinite"/>
+  </use>
+  <use xlink:href="#card" clip-path="url(#slice2)">
+    <animateTransform attributeName="transform" type="translate" calcMode="discrete" values="0 0; -14 0; 0 0; 10 0; 0 0" keyTimes="0;0.045;0.1;0.53;0.57" dur="2.8s" repeatCount="indefinite"/>
+  </use>
+  <use xlink:href="#card" clip-path="url(#slice3)">
+    <animateTransform attributeName="transform" type="translate" calcMode="discrete" values="0 0; 8 0; 0 0; -11 0; 0 0" keyTimes="0;0.75;0.79;0.85;0.89" dur="3.4s" repeatCount="indefinite"/>
+  </use>
+
+  <!-- noise blocks -->
+  <g fill="#ffffff">
+    <rect x="480" y="140" width="46" height="5" opacity="0">
+      <animate attributeName="opacity" calcMode="discrete" values="0;0.5;0;0" keyTimes="0;0.31;0.34;1" dur="2.9s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="180" y="370" width="60" height="4" opacity="0">
+      <animate attributeName="opacity" calcMode="discrete" values="0;0.4;0;0" keyTimes="0;0.68;0.71;1" dur="3.3s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="700" y="90" width="38" height="6" opacity="0">
+      <animate attributeName="opacity" calcMode="discrete" values="0;0.45;0;0" keyTimes="0;0.12;0.15;1" dur="2.6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- scanlines -->
+  <rect x="0" y="0" width="900" height="420" rx="18" fill="url(#scan)"/>
+</svg>
