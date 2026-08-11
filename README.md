@@ -11,8 +11,8 @@
 </p>
 
 <p align="center">
-  <a href="https://1337.ma"><img src="https://img.shields.io/badge/-1337_·_42_Network-000000?style=for-the-badge&logo=42&logoColor=white" /></a>
-  <a href="https://github.com/h3npwn"><img src="https://img.shields.io/badge/-Rabat%2C_Morocco-000000?style=for-the-badge&logoColor=white" /></a>
+  <a href="https://1337.ma"><img src="https://img.shields.io/badge/1337-42_Network-000000?style=for-the-badge&logo=42&logoColor=white" /></a>
+  <a href="https://github.com/h3npwn"><img src="https://img.shields.io/badge/Rabat-Morocco-000000?style=for-the-badge" /></a>
 </p>
 
 <p align="center">
