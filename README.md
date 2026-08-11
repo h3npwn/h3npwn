@@ -52,8 +52,8 @@ Rule: if you can't build it from scratch, you don't understand it
 </div>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=h3npwn&show_icons=true&hide_border=true&bg_color=000000&title_color=ffffff&icon_color=ffffff&text_color=b3b3b3" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=h3npwn&layout=compact&hide_border=true&bg_color=000000&title_color=ffffff&text_color=b3b3b3" height="165"/>
+  <img src="https://github-stats-extended.vercel.app/api?username=h3npwn&show_icons=true&hide_border=true&bg_color=000000&title_color=ffffff&icon_color=ffffff&text_color=b3b3b3" height="165"/>
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=h3npwn&layout=compact&hide_border=true&bg_color=000000&title_color=ffffff&text_color=b3b3b3" height="165"/>
 </p>
 
 
