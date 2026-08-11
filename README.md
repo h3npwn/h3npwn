@@ -31,10 +31,10 @@
 h3n\x @ 1337
 ------------------------------------------------------------------
 Name: h3n\x 「h3npwn」
-WhoamI: Student at 1337 (42 Network) in Rabat, Morocco. I write C
-        close to the metal — my own shell, my own libc, raycasting
-        engines, threads and pipes from scratch. No frameworks,
-        no shortcuts, just man pages and segfaults.
+WhoamI: Student at 1337 (42 Network) in Rabat, Morocco. Just a guy
+        who fights segfaults with memory handlers and codes for fun.
+        Anime & music addicted. Android kernel patching lover —
+        cause my phone is too dumb, i know.
 OS: Arch Linux + Hyprland
 CurrentGrind: C++ modules · systems programming
 SideQuests: AI & RAG pipelines, linux ricing
